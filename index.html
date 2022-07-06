@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSC3007 Information Visualization Assignment 4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <h4 class="text-center display-6">CSC3007 Information Visualization Assignment 04</h4>
+
+    <div class="container">
+
+        <input type="radio" class="btn-check" name="btnradio" id="genderSelect" autocomplete="off">
+        <label class="btn btn-outline-secondary btn-sm" for="genderSelect">Gender</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="vaccinatedSelect" autocomplete="off">
+        <label class="btn btn-outline-secondary btn-sm" for="vaccinatedSelect">Vaccinated</label>
+
+        <div id="graph"></div>
+
+            <div class="col-lg-3">
+
+        </div>
+    </div>
+
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38155188-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+
+</html>

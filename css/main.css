@@ -1,0 +1,61 @@
+.rectBackground {
+    fill: #efefef;
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+.link.selected {
+    stroke: #0ff;
+}
+
+#selectedLink {
+    fill: #0ff;
+}
+
+.node {
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.node.selected {
+    stroke: #0ff;
+    stroke-width: 2px;
+}
+
+.node.clicked {
+    stroke: #00f;
+    stroke-width: 8px;
+}
+
+.tick text {
+    font-size: 16px;
+}
+
+rect {
+    stroke: #000;
+    stroke-width: 0.5px;
+}
+
+rect.selected {
+    stroke: #0ff;
+    stroke-width: 2px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    background: honeydew;
+    font: 16px sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 8px;
+    pointer-events: none;
+    /* keep the mouseover when over the tooltip */
+}
